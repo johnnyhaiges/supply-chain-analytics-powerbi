@@ -1,4 +1,4 @@
-\# Retail Supply Chain Analytics Dashboard
+# Retail Supply Chain Analytics Dashboard
 
 
 
@@ -6,7 +6,7 @@ Two-page integrated Power BI report combining sales performance and supply chain
 
 
 
-\## How to Open
+## How to Open
 
 
 
@@ -14,17 +14,17 @@ Download `Integrated Supply Chain Dashboard.pbix` and open in Power BI Desktop (
 
 
 
-\## What's Inside
+## What's Inside
 
 
 
-\*\*Page 1 — Sales Performance\*\*
+**Page 1 — Sales Performance**
 
 Executive sales view with monthly trend, category mix, and headline KPIs (total transactions, total sales, total quantity). Interactive filters for date range and customer gender drive recalculation across all visuals.
 
 
 
-\*\*Page 2 — Supply Chain Performance\*\*
+**Page 2 — Supply Chain Performance**
 
 Operational view centered on three KPIs: average order-to-delivery lead time, average fulfillment time, and service level percentage. Includes trend lines for lead time and service level over time, lead time by product category, and a scatter integrating lead time, service level, and sales by category.
 
@@ -34,65 +34,65 @@ The two pages share the same data model and slicers, so filtering on one dimensi
 
 
 
-\## Demonstrated Capabilities
+## Demonstrated Capabilities
 
 
 
-\- \*\*Multi-page report design\*\* with shared data model
+- **Multi-page report design** with shared data model
 
-\- \*\*KPI card construction\*\* with summary measures
+- **KPI card construction** with summary measures
 
-\- \*\*Interactive slicers\*\* (date range, product category, gender) driving cross-visual filtering
+- **Interactive slicers** (date range, product category, gender) driving cross-visual filtering
 
-\- \*\*Mixed visualization types:\*\* line charts, donut charts, horizontal bar charts, scatter plots, KPI cards
+- **Mixed visualization types:** line charts, donut charts, horizontal bar charts, scatter plots, KPI cards
 
-\- \*\*Power Query\*\* for source data preparation
+- **Power Query** for source data preparation
 
-\- \*\*DAX measures\*\* for KPIs and aggregations
-
-
-
-\## Dashboard Views
+- **DAX measures** for KPIs and aggregations
 
 
 
-\### Sales Performance (Page 1)
+## Dashboard Views
 
 
 
-!\[Sales Performance dashboard — full year view](images/01\_sales\_performance\_overview.png)
+### Sales Performance (Page 1)
 
 
 
-\### Supply Chain Performance (Page 2)
+![Sales Performance dashboard — full year view](images/01_sales_performance_overview.png)
 
 
 
-!\[Supply Chain Performance dashboard — full view](images/04\_supply\_chain\_full\_view.png)
+### Supply Chain Performance (Page 2)
 
 
 
-\### Interactive Filtering Example
+![Supply Chain Performance dashboard — full view](images/04_supply_chain_full_view.png)
 
 
 
-Filtering to Electronics-only on the Supply Chain page recalculates KPIs: service level rises from \~50% (all categories) to \~71% (Electronics alone), illustrating live cross-visual interactivity.
+### Interactive Filtering Example
 
 
 
-!\[Supply Chain filtered to Electronics](images/02\_supply\_chain\_filtered\_electronics.png)
+Filtering to Electronics-only on the Supply Chain page recalculates KPIs: service level rises from ~50% (all categories) to ~71% (Electronics alone), illustrating live cross-visual interactivity.
 
 
 
-\### Date-Filtered Sales View
+![Supply Chain filtered to Electronics](images/02_supply_chain_filtered_electronics.png)
 
 
 
-!\[Sales Performance with date range applied](images/03\_sales\_performance\_august\_view.png)
+### Date-Filtered Sales View
 
 
 
-\## Dataset
+![Sales Performance with date range applied](images/03_sales_performance_august_view.png)
+
+
+
+## Dataset
 
 
 
@@ -100,7 +100,7 @@ Retail sales transaction dataset sourced from Kaggle. Includes transaction-level
 
 
 
-\## Stack
+## Stack
 
 
 
@@ -108,11 +108,11 @@ Power BI Desktop (.pbix), Power Query, DAX.
 
 
 
-\## Repository
+## Repository
 
 ```
 
-data/                            retail\_sales\_dataset.csv
+data/                            retail_sales_dataset.csv
 
 images/                          dashboard screenshots
 
